@@ -1,4 +1,4 @@
-namespace ArmTemplates
+namespace WeatherAPI
 {
     public class WeatherForecast
     {
