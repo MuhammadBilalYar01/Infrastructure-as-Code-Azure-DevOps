@@ -6,6 +6,8 @@
 trigger:
 - master
 
+name: $(Build.DefinitionName)_$$(date:yyyy.MM.dd)$(rev:.r)
+
 pool:
   vmImage: 'windows-latest'
 
